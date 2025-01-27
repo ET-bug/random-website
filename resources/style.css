@@ -34,10 +34,10 @@ p {
     font-size: 18px;
     font-style: bold;
 }
-.button btn-primary {
+.button.btn-primary {
     background-color: #3882F6;
 }
-.button btn-secondary {
+.button.btn-secondary {
     border-color: white;
 }
 .p-secondary, 
@@ -54,8 +54,8 @@ p {
     outline: 2px solid black;
 }
 div {
-    text-align: center;
     display: flex;
+    box-sizing: border-box;
 }
 /*background styles*/
 .primary-bg {
@@ -69,15 +69,16 @@ div {
     padding: 90px;
     background-color: #E5E7EB;
     flex-direction: column;
-    /*flex: 1;
-    flex-direction: column;
-    justify-content: center;*/
+    justify-content: center;
 }
 .default-bg {
     height: 500px;
     width: auto;
     background-color: white;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .info-section {
     padding: 50px;
@@ -99,6 +100,12 @@ img {
     background-color: #3882F6;
     border-radius: 8px;
     gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-text {
+    flex-direction: column;
+    justify-content: center;
 }
 .call-to-action-button {
     flex-direction: column;
