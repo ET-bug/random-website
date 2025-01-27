@@ -88,7 +88,7 @@ div {
 /*1. header section*/
 /*top nav bar*/
 .header {
-    width: 80%;
+    width: 70%;
     height: 100px;
     flex-direction: row;
     align-items: center;
@@ -100,7 +100,7 @@ div {
 }
 /*hero text*/
 .top-section {
-    width: 80%;
+    width: 70%;
     height: auto;
     flex-direction: row;
     padding-top: 100px;
@@ -119,22 +119,18 @@ div {
     height: auto;
 }
 
-
-
-
-
-
-
+/*2. information highlight section*/
 .info-section {
-    padding: 50px;
-    width: 80%;
+    width: 70%;
     height: auto;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
 .image-info {
+    width: 250px;
+    height: auto;
     flex-direction: column;
+    text-align: center;
+    gap: 30px;
 }
 img {
     width: 250px;
@@ -142,7 +138,7 @@ img {
     border-radius: 8px;
 }
 
-
+/*3. big quote section*/
 .call-to-action {
     height: 250px;
     width: 65%;
