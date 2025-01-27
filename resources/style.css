@@ -23,6 +23,10 @@ p {
     color: #E5E7EB;
     font-size: 18px;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 /*define child text styles*/
 /*quote is a child of h2*/
@@ -81,18 +85,23 @@ div {
     align-items: center;
 
 }
-/*header section*/
+/*1. header section*/
+/*top nav bar*/
 .header {
-    top: 50px;
+    width: 80%;
+    height: 100px;
     flex-direction: row;
-}
-#logo-text {
-    align-items: left;
+    align-items: center;
 }
 .header-links {
-    align-items: right;
+    margin-left: auto;
+    gap: 100px;
+    display: flex;
 }
+/*hero text*/
 .top-section {
+    width: 80%;
+    height: auto;
     flex-direction: row;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -105,12 +114,11 @@ div {
     flex-direction: column;
     justify-content: center;
 }
-.cover-image {
+.cover-image img{
     width: 50%;
     height: auto;
-    flex-direction: column;
-    justify-content: center;
 }
+
 
 
 
