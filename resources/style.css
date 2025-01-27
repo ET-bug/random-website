@@ -3,7 +3,6 @@
 /*define parent text styles*/
 * {
     font-family: Roboto, sans-serif;
-    display: flex;
 }
 h1 {
     color: #F9FAF8;
