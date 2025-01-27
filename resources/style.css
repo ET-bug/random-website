@@ -54,14 +54,20 @@ div {
     background-color: #1F2937;
 }
 .secondary-bg {
-    height: 270px;
+    height: 500px;
     width: auto;
     padding: 90px;
     background-color: #E5E7EB;
-    flex: 1;
+    /*flex: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
 }
 .default-bg {
     background-color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
 }
