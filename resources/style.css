@@ -8,20 +8,24 @@ h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin: 0px;
 }
 h3 {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    margin: 0px;
 }
 p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0px;
 }
 /*define child text styles*/
 /*quote is a child of h2*/
@@ -78,6 +82,7 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 .default-bg {
     height: 500px;
@@ -102,6 +107,10 @@ div {
     gap: 100px;
     display: flex;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 /*hero text*/
 .top-section {
     width: 70%;
@@ -117,23 +126,19 @@ div {
     width: 50%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 0px;
 }
 .cover-image {
-    width: 50%;
-    height: auto;
+    max-width: 50%;
 }
 
 /*2. information highlight section*/
 .info-section {
     width: 70%;
-    height: auto;
     justify-content: space-between;   
 }
 .image-info {
     width: 250px;
-    height: auto;
     flex-direction: column;
     text-align: center;
     gap: 10px;
@@ -153,8 +158,8 @@ div {
 .call-to-action {
     height: 50%;
     width: 70%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #3882F6;
     border-radius: 8px;
     gap: 100px;
@@ -164,7 +169,6 @@ div {
 .call-to-action-text {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-right: auto;
     gap: 0px;
     display: flex;
