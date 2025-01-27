@@ -23,11 +23,6 @@ p {
     color: #E5E7EB;
     font-size: 18px;
 }
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /*define child text styles*/
 /*quote is a child of h2*/
 .button {
