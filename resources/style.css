@@ -3,6 +3,7 @@
 /*define parent text styles*/
 * {
     font-family: Roboto, sans-serif;
+    display: flex;
 }
 h1 {
     color: #F9FAF8;
@@ -43,14 +44,20 @@ a {
 }
 .button.btn-secondary {
     border-color: white;
+    background-color: inherit;
 }
 .p-secondary, 
 .h3-secondary {
     color: #1F2937;
 }
+.h3-secondary {
+    width: 70%;
+    text-align: right;
+}
 .h2-italic {
     font-weight: 300;
     font-style: italic;
+    width: 70%;
 }
 
 /*styling div classes*/
@@ -71,7 +78,6 @@ div {
 .secondary-bg {
     height: 500px;
     width: auto;
-    padding: 90px;
     background-color: #E5E7EB;
     flex-direction: column;
     justify-content: center;
@@ -139,9 +145,14 @@ img {
 }
 
 /*3. big quote section*/
+/*as defined using background divs*/
+
+
+
+/*4. call to action section*/
 .call-to-action {
-    height: 250px;
-    width: 65%;
+    height: 50%;
+    width: 70%;
     background-color: #3882F6;
     border-radius: 8px;
     gap: 100px;
@@ -151,6 +162,7 @@ img {
 .call-to-action-text {
     flex-direction: column;
     justify-content: center;
+    display: flex;
 }
 .call-to-action-button {
     flex-direction: column;
