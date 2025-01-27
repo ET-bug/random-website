@@ -1,17 +1,5 @@
 /*css stylesheet*/
 
-/*background styles*/
-.primary-bg {
-    background-color: #1F2937;
-}
-.secondary-bg {
-    background-color: #E5E7EB;
-}
-.default-bg {
-    background-color: white;
-}
-
-
 /*define parent text styles*/
 * {
     font-family: Roboto, sans-serif;
@@ -50,4 +38,29 @@ p {
 .h2-italic {
     font-weight: 300;
     font-style: italic;
+}
+
+/*styling div classes*/
+* {
+    outline: 2px solid black;
+}
+div {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+}
+/*background styles*/
+.primary-bg {
+    background-color: #1F2937;
+}
+.secondary-bg {
+    height: 100px;
+    width: auto;
+    background-color: #E5E7EB;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.default-bg {
+    background-color: white;
 }
