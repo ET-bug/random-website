@@ -27,9 +27,18 @@ p {
 /*define child text styles*/
 /*quote is a child of h2*/
 .button {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
     color: #F9FAF8;
     font-size: 18px;
     font-style: bold;
+}
+.button btn-primary {
+    background-color: #3882F6;
+}
+.button btn-secondary {
+    border-color: white;
 }
 .p-secondary, 
 .h3-secondary {
@@ -45,12 +54,13 @@ p {
     outline: 2px solid black;
 }
 div {
-    padding: 30px;
     text-align: center;
     display: flex;
 }
 /*background styles*/
 .primary-bg {
+    height: 500px;
+    width: auto;
     background-color: #1F2937;
 }
 .secondary-bg {
@@ -58,16 +68,39 @@ div {
     width: auto;
     padding: 90px;
     background-color: #E5E7EB;
+    flex-direction: column;
     /*flex: 1;
     flex-direction: column;
     justify-content: center;*/
 }
 .default-bg {
+    height: 500px;
+    width: auto;
     background-color: white;
+    flex-direction: column;
+}
+.info-section {
+    padding: 50px;
+    width: 50%;
+    height: auto;
+    justify-content: space-between;
+    
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+
+.call-to-action {
+    height: 250px;
+    width: 65%;
+    background-color: #3882F6;
     border-radius: 8px;
+    gap: 100px;
+}
+.call-to-action-button {
+    flex-direction: column;
+    justify-content: center;
 }
