@@ -63,9 +63,6 @@ p {
 }
 
 /*styling div classes*/
-* {
-    outline: 2px solid black;
-}
 div {
     display: flex;
     box-sizing: border-box;
@@ -133,8 +130,8 @@ a {
     gap: 10px;
 }
 .cover-image {
-    max-width: 50%;
-    max-height: 400px;
+    width: 400px;
+    height: 300px;
 }
 
 /*2. information highlight section*/
